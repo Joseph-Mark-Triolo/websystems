@@ -1,0 +1,158 @@
+@font-face {
+	font-family: bombardier;
+	src: url(fonts/bombardier-regular.ttf);
+}
+/* font downloaded from https://fontesk.com/bombardier-font/ */
+
+body {
+	width: 100%;
+	max-width: 1000px;
+	margin: 100px auto;
+	background: url("images/risk-of-rain-2-art.jpg"); 
+	background-size: cover;
+	font-family: bombardier;
+	font-size: 100%;
+	text-shadow: 1.5px 1.5px black;
+	color: #f3f8fb;
+}
+/* Image was found from https://www.gamesradar.com/au/risk-of-rain-2-challenges/ */
+
+header h1 {
+	margin: 0;
+	padding: 50px 0 50px;
+	text-align: center;
+	background-color: #425164F2;
+	font-size: 500%;
+	border: 3px solid #667383F2;
+	transition: 0.5s;
+}
+
+.menu {
+	background-color: #425164F2;
+	margin: 10px 0;
+	border: 3px solid #667383F2;
+	text-align: center;
+	transition: 1s;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0 10px;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a {
+	font-size: 200%;
+	padding: 5px 15px 5px;
+	text-decoration: none;
+	color: #f3f8fb;
+}
+
+.menu a:hover {
+	background-color: #b4b784F2;
+	border: 2px solid #dadfa0F2;
+	outline: 2px solid #f3f8fb;
+	outline-offset: 2px;
+	transition: 0.3s;
+}
+
+.main-body {
+	margin: 10px 0;
+	background-color: #425164F2;
+	border: 3px solid #667383F2;
+	transition: 1s;
+}
+
+.main-body p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.main-body span{
+	color: orange;
+}
+
+.main-body h2{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#index-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+footer {
+	margin: 10px 0 100px;
+	padding: 10px 0 5px;
+	color: #f3f8fb;
+	background-color: #425164F2;
+	border: 3px solid #667383F2;
+	font-size: 100%;
+	text-align: center;
+	transition: 1s;
+}
+
+.main-body h3{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.main-body table{
+    margin: auto;
+  }
+
+.main-body th{
+	border: 3px solid #667383F2;
+	background-color: #40515e;
+	padding: 5px 0px;
+}
+
+.main-body td{
+	border: 3px solid #667383F2;
+	background-color: #40515e;
+	padding: 5px 5px;
+}
+
+.main-body ul{
+	margin: 0;
+	padding: 20px 20px;
+}
+
+#red-span{
+	color: red;
+}
+
+#future-image {
+	display: block;
+	margin: 20px auto;
+	width: 50%;
+}
+
+#past-image{
+	display: block;
+	margin: 20px auto;
+	width: 50%;
+}
+
+#comments-image{
+	display: block;
+	margin: 20px auto;
+	width: 50%;
+}
+
+.main-body h4{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#pizazz{
+	color: pink;
+}
